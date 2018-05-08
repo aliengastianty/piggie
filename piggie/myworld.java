@@ -14,17 +14,17 @@ public class myworld extends World
      * 
      */
     public Khun khun= new Khun();
-    public Pohon pohon = new Pohon();
+    public Pohon1 pohon = new Pohon1();
     public myworld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 500, 1); 
-        addObject(khun,getWidth()/10,getHeight()/2);
+        super(600, 400, 1); 
+        addObject(new Khun(),50 ,210);
     }
     public void act(){
     if(jeda==0){
-    addObject(new Pohon(), getWidth(), getHeight());
-    jeda=100;
+        addObject(new Pohon1(),555, 220);
+        jeda=50;
    }
    else{
     jeda--;

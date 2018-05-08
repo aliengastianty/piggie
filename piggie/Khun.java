@@ -8,35 +8,26 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Khun extends Actor
 {
-    private boolean jatuh;
-    private int y=3;
-    private int cepat=1;
-    private int naik=10;
+    int a=2;//percepatan
+    int v=1;//kecepatan
     /**
      * Act - do whatever the Khun wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-       move();
-    } 
-    public void move()
-    {
-        if(Greenfoot.isKeyDown("space"))
-        {
-            loncat();
+     // Add your action code here.
+        setLocation(getX(),getY()+1+v);
+        v+=a;//v=v+a
+        
+        if(Greenfoot.isKeyDown("space")){
+            v=-20;
+        }       
+        else
+           setLocation(50,210); 
         }
     }
-    public void loncat()
-    {
-        if(jatuh==false)
-        {
-            y=-naik;
-            bawah();
-        }
-    }
-    public void bawah()
-    {
-        jatuh=true;
-    }
-}
+
+
+
+     

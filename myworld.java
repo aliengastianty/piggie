@@ -24,16 +24,15 @@ public class myworld extends World
         addObject(new Khun(),50 ,210);
     }
     
-
     public void act(){
-    if(jeda==0){
+      if(jeda==0){
         addObject(new Pohon1(),555, 220);
         jeda=50;
-   }
-   else{
+    }
+       else{
     jeda--;
    }
-   
+}
 }
 
-}
+

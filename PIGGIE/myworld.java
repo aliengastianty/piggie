@@ -26,11 +26,14 @@ public class myworld extends World
     
     public void act(){
       if(jeda==0){
-        addObject(new Pohon1(),555, 220);
+        addObject(new Pohon1(),555, 220);      
         jeda=50;
     }
        else{
-    jeda--;
+            jeda--;
+           
+       
+           
    }
 }
 }

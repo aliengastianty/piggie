@@ -29,9 +29,7 @@ public class Khun extends Actor
                    if (isTouching(Pohon1.class)){
                        Greenfoot.stop();
                        getWorld().addObject(new Kalah() , 300, 210);
-                       
-                    }
-                    
+                    }                  
         }
 
     }

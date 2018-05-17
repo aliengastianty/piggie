@@ -10,6 +10,7 @@ public class Khun extends Actor
 {
     int a=2;//percepatan
     int v=1;//kecepatan
+    public static GreenfootSound titleSound;
     /**
      * Act - do whatever the Khun wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -28,9 +29,13 @@ public class Khun extends Actor
                {
                    if (isTouching(Pohon1.class)){
                        Greenfoot.stop();
+                            titleSound = new GreenfootSound("lagu.mp3");
+                            titleSound.stop();
                        getWorld().addObject(new Kalah() , 300, 210);
-                    }                  
-        }
+                       getWorld().addObject(new btn_rst(), 500, 350);      
+                        }
+                }
+                
 
     }
     }

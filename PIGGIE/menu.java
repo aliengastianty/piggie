@@ -8,7 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class menu extends World
 {
-
+    public static GreenfootSound titleSound;
+    
     /**
      * Constructor for objects of class menu.
      * 
@@ -17,7 +18,15 @@ public class menu extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        prepare();
+        prepare();   
+        if(this.getClass(). getName(). equalsIgnoreCase("menu"))
+        {
+            titleSound = new GreenfootSound("lagu.mp3");
+            titleSound.stop();
+        titleSound.setVolume(50);
+        titleSound.playLoop();
+    }
+            
     }
 
     /**
@@ -26,7 +35,8 @@ public class menu extends World
      */
     private void prepare()
     {
-        mulai mulai = new mulai();
+        mulai mulai = new mulai();       
         addObject(mulai,383,289);
+    
     }
 }

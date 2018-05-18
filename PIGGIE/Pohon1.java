@@ -15,9 +15,12 @@ public class Pohon1 extends Actor
     public void act()
     {
         setLocation(getX()-10,getY());
-        Pohon1 pohon = new Pohon1();
-        
+        World w=getWorld();
+        {if(isAtEdge()){
+            w.removeObject(this);
+        }
          }
+        }
    }
 
 

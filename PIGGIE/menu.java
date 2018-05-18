@@ -35,8 +35,10 @@ public class menu extends World
      */
     private void prepare()
     {
-        mulai mulai = new mulai();       
-        addObject(mulai,383,289);
+       Start start = new Start();       
+        addObject(start,550,278);
+       petunjuk petun = new petunjuk();
+       addObject(petun, 75,278);
     
     }
 }

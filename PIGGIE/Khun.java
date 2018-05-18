@@ -31,7 +31,7 @@ public class Khun extends Actor
                        Greenfoot.stop();
                             titleSound = new GreenfootSound("lagu.mp3");
                             titleSound.stop();
-                       getWorld().addObject(new Kalah() , 300, 210);
+                       getWorld().addObject(new akhir() , 300, 210);
                        getWorld().addObject(new btn_rst(), 500, 350);      
                         }
                 }

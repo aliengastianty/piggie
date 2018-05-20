@@ -38,40 +38,8 @@ public class Khun extends Actor
                               {
                                Greenfoot.setWorld(new menu());
                               } 
-                                }
-                                    if(Greenfoot.mouseClicked(this))
-                              {
-                               Greenfoot.setWorld(new menu());
-                              } 
-                                }    if(Greenfoot.mouseClicked(this))
-                              {
-                               Greenfoot.setWorld(new menu());
-                              } 
-                                }    if(Greenfoot.mouseClicked(this))
-                              {
-                               Greenfoot.setWorld(new menu());
-                              } 
-                                }    if(Greenfoot.mouseClicked(this))
-                              {
-                               Greenfoot.setWorld(new menu());
-                              } 
-                                }    if(Greenfoot.mouseClicked(this))
-                              {
-                               Greenfoot.setWorld(new menu());
-                              } 
-                                }    if(Greenfoot.mouseClicked(this))
-                              {
-                               Greenfoot.setWorld(new menu());
-                              } 
-                                }    if(Greenfoot.mouseClicked(this))
-                              {
-                               Greenfoot.setWorld(new menu());
-                              } 
-                                }
-                                
-                }
-                
-
+                                }                            
+                }                
     }
     }
 }

@@ -31,14 +31,50 @@ public class Khun extends Actor
                        Greenfoot.stop();
                             titleSound = new GreenfootSound("lagu.mp3");
                             titleSound.stop();
-                       getWorld().addObject(new akhir() , 300, 210);
-                       getWorld().addObject(new btn_rst(), 500, 350);      
-                        }
+                       getWorld().addObject(new akhir() , 300, 200);
+                       getWorld().addObject(new btn_rst(), 500, 320);                   
+                           {
+                             if(Greenfoot.mouseClicked(this))
+                              {
+                               Greenfoot.setWorld(new menu());
+                              } 
+                                }
+                                    if(Greenfoot.mouseClicked(this))
+                              {
+                               Greenfoot.setWorld(new menu());
+                              } 
+                                }    if(Greenfoot.mouseClicked(this))
+                              {
+                               Greenfoot.setWorld(new menu());
+                              } 
+                                }    if(Greenfoot.mouseClicked(this))
+                              {
+                               Greenfoot.setWorld(new menu());
+                              } 
+                                }    if(Greenfoot.mouseClicked(this))
+                              {
+                               Greenfoot.setWorld(new menu());
+                              } 
+                                }    if(Greenfoot.mouseClicked(this))
+                              {
+                               Greenfoot.setWorld(new menu());
+                              } 
+                                }    if(Greenfoot.mouseClicked(this))
+                              {
+                               Greenfoot.setWorld(new menu());
+                              } 
+                                }    if(Greenfoot.mouseClicked(this))
+                              {
+                               Greenfoot.setWorld(new menu());
+                              } 
+                                }
+                                
                 }
                 
 
     }
     }
+}
 
 
 

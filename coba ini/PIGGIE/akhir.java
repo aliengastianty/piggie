@@ -14,6 +14,11 @@ public class akhir extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+       prepare();
+    } 
+    public void prepare()
+    {
+       out kel = new out();
+       addObject(kel , 400, 278);
+    }
 }

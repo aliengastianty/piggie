@@ -18,7 +18,7 @@ public class Khun extends Actor
     public void act() 
     {
      // Add your action code here.
-        setLocation(getX(),getY()+1+v);
+        setLocation(getX(),getY()+v);
         v+=a;//v=v+a
         
         if(Greenfoot.isKeyDown("up")){

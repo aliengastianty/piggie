@@ -14,11 +14,8 @@ public class btn_rst extends Actor
      */
     public void act() 
     {
-            {
-      if(Greenfoot.mouseClicked(this))
-        {
-       Greenfoot.setWorld(new menu());
-       }    
+        if(Greenfoot.mousePressed(this)){
+            Greenfoot.setWorld(new menu());
+        }
     }
-}
 }

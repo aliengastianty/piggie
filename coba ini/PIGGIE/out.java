@@ -14,8 +14,9 @@ public class out extends Actor
      */
     public void act() 
     {
-       if(Greenfoot.stop){
-           System.out();
+       if(Greenfoot.mousePressed(this))
+       {
+          System.exit(0);
         }
-    }    
+    }
 }

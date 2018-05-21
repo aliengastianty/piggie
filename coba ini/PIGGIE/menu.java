@@ -23,7 +23,7 @@ public class menu extends World
         {
             titleSound = new GreenfootSound("lagu.mp3");
             titleSound.stop();
-        titleSound.setVolume(50);
+        titleSound.setVolume(0);
         titleSound.playLoop();
     }
             
@@ -36,11 +36,11 @@ public class menu extends World
     private void prepare()
     {
        Start start = new Start();       
-        addObject(start,550,278);
+        addObject(start, 480, 285);
        petunjuk petun = new petunjuk();
        addObject(petun, 75,278);
        out kel = new out();
-       addObject(kel, 480, 285);
+       addObject(kel, 555,287);
     
     }
 }

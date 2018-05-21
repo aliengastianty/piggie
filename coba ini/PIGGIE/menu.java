@@ -39,6 +39,8 @@ public class menu extends World
         addObject(start,550,278);
        petunjuk petun = new petunjuk();
        addObject(petun, 75,278);
+       out kel = new out();
+       addObject(kel, 480, 285);
     
     }
 }

@@ -40,9 +40,10 @@ public class Khun extends Actor
                               } 
                                 }                            
                 }                
+            }
+  }
     }
-    }
-}
+
 
 
 
